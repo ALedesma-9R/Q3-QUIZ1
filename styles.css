@@ -1,0 +1,57 @@
+/* Main Elements */
+
+body {
+  background: url('https://img.freepik.com/free-vector/3d-style-black-background-with-paper-layer_206725-669.jpg');
+  background
+}
+
+.container {
+	margin: 50px;
+  margin-left: 150px;
+	background-color: skyblue;
+}
+
+.column {
+  width: 25%;
+  padding: 0 10px;
+}
+
+@media screen {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Texts */
+
+.alert-info {
+  border-style: dashed;
+  border-color: darkslategray;
+}
+
+.alert-success {
+  color: darkslateblue;
+  background-color: #C8F2FC;
+}
+
+h1 {
+
+}
+
+h4 {
+  background-color: cadetblue;
+}
+
+.given {
+  border-left: 6px solid #00A7C3;
+  background-color: #C8F2FC;
+  font-size: 20px;
+}
+
+/* Extra */
+
+button {
+  background-color: darkslateblue;
+}
